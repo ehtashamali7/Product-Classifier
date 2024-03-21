@@ -1,14 +1,10 @@
-This current repository contain the jupiter note file which is downloaded from the google colab 
-and the dataset is created from the provided link for the app. first of all take the screen shorts of the targated categories and make folder for them respectively as well as 
-done croppin for the images as during screenshort the extra area is not usefull.
-then the zip file is created for the dataset foldar and uploaded on google drive in order to get ride from the multiple uplodation on the google colab.
-The images convert into numpy arrays in order to to fast the traing process if i do traing with the images then it will required much more time.                                          
-the maganed the data according to the requirments and only five categories is collected at the moment because some of them is missing and apply augmentation technique to
-get the product chracteristic with different angles and sides.
-then split the dateset into three part in which 80% data is keep for the training purpose and rest one divide into validate and testing purpose.
-after training the model with sequential layers then used the earlystoping method in order to reduced the computation power.
-and also try the transfer learning technique in order to check its impact with already trained model. 
-Result refect thats the model is unstable throughout the training it may be happend due to the class imbalanced or something else . i was try the reduced its unstability in order 
-to changed its parameter and changing the layers and learning rate as well and this result is the best outcome throughout the procedure and i know its not the best one and 
-it would be improved time to time.
+The current repository includes a Jupyter Notebook file downloaded from Google Colab, where the dataset was created using images obtained from the provided link for the app. Initially, screenshots were taken of the targeted categories, followed by organizing them into respective folders. Additionally, cropping of the images was performed to remove unnecessary areas captured during screenshots.
+
+Subsequently, a zip file containing the dataset folder was created and uploaded to Google Drive to streamline the process, avoiding multiple uploads on Google Colab. To expedite the training process, the images were converted into numpy arrays. Training directly with images would have consumed considerably more time and computation power.
+
+Data management was then carried out according to requirements, with only five categories collected initially due to some being missing. Augmentation techniques were applied to impart product characteristics from different angles and perspectives. The dataset was split into three parts, allocating 80% for training and the remaining divided between validation and testing.
+
+Sequential layers were employed for model training, with early stopping implemented to mitigate computation costs. Additionally, transfer learning was experimented with using a pre-trained model to assess its impact. Results revealed model instability throughout training, possibly due to class imbalance or other factors.
+
+Efforts were made to address this instability by adjusting parameters, altering layers, and modifying learning rates. The presented outcome represents the best result achieved amid this iterative process. While acknowledging its room for improvement, I remain committed to refining the model over time.
 
