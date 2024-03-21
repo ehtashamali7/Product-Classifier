@@ -7,6 +7,10 @@ Data management was then carried out according to requirements, with only five c
 Sequential layers were employed for model training, with early stopping implemented to mitigate computation costs. Additionally, transfer learning was experimented with using a pre-trained model to assess its impact. Results revealed model instability throughout training, possibly due to class imbalance or other factors.
 
 Efforts were made to address this instability by adjusting parameters, altering layers, and modifying learning rates. The presented outcome represents the best result achieved amid this iterative process. While acknowledging its room for improvement, I remain committed to refining the model over time.
-Dataset link :
+
+
+  Dataset link :
 https://drive.google.com/file/d/1pI1uJmdb6HXfut5QMNr67jKZgo_II2lV/view?usp=drive_link
+
+Vedio Link: https://vimeo.com/925821813/36b2f224b7?share=copy
 
